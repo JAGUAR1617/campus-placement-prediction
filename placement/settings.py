@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+pb(&b62%9$)_@&8ut%o8rtri@g#j1$3-93gne5=j1%6=p$_nk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://jobpredictionapp.herokuapp.com/']
 
 
 # Application definition
